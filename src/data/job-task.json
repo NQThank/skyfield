@@ -1,0 +1,16 @@
+{
+  "comments": [
+    {
+      "owner_name": "Json Bui",
+      "time": "2024-08-24",
+      "status": "rejected",
+      "comment": "You didn't add the technology color code"
+    },
+    {
+      "owner_name": "Json Bui",
+      "time": "2024-08-24",
+      "status": "approved",
+      "comment": "Please push all the rf jumper boot secure to the top to avoid weather to interface"
+    }
+  ]
+}

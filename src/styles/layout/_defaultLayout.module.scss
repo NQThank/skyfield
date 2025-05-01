@@ -1,0 +1,16 @@
+.sider-wrapper {
+  @include scrollbars();
+}
+.default-layout {
+  :global {
+    .ant-select-item-option-content {
+      @include flex(row, center, center);
+    }
+  }
+  &__content {
+    @include scrollbars(8px, transparent);
+  }
+  &:hover &__content {
+    @include scrollbars(8px);
+  }
+}

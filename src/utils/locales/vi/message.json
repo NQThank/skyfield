@@ -1,0 +1,14 @@
+{
+  "success": "Thành công",
+  "delete": "Xóa",
+  "edit": "Edit",
+  "fill_all": "Vui lòng điền đầy đủ",
+  "confirm_cancel": "Bạn chắc chắn muốn thoát?",
+  "already exits": "Đã tồn tại",
+  "choose_equipment": "Vui lòng chọn thiết bị",
+  "sure delete": "Sure to delete?",
+  "duplicate equipment": "Duplicate Equipment",
+  "add_equipment": "Add Equipment {{name}}",
+  "confirm": "Are you sure delete this {{name}}?",
+  "change password": "Change password success. Please login again!"
+}

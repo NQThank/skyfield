@@ -1,0 +1,14 @@
+{
+  "success": "Success",
+  "delete": "Delete",
+  "edit": "Edit",
+  "fill_all": "Please fill out completely",
+  "confirm_cancel": "You definitely want to escape?",
+  "already exits": "Already exist",
+  "choose_equipment": "Please choose equipment",
+  "sure delete": "Sure to delete?",
+  "duplicate equipment": "Duplicate Equipment",
+  "add_equipment": "Add Equipment {{name}}",
+  "confirm": "Are you sure delete this {{name}}?",
+  "change password": "Change password success. Please login again!"
+}

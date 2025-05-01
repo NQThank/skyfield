@@ -1,0 +1,9 @@
+{
+  "detail": "Chi tiết",
+  "no.": "STT",
+  "fail": "Thất bại",
+  "pagination": "Kết quả:{{from}} - {{to}} của {{total}} bản ghi",
+  "row per page": "Dòng mỗi trang",
+  "back": "Quay trở lại",
+  "no data": "Không có dữ liệu"
+}

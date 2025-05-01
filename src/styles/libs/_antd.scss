@@ -1,0 +1,163 @@
+// ====== MODAL ======
+.ant-modal {
+  .ant-modal-title {
+    @apply text-center;
+  }
+  .ant-modal-close {
+    @apply h-7 w-7 rounded-full;
+  }
+}
+// ====== END MODAL ======
+
+// ====== FORM ======
+
+.ant-form {
+  &:not(.ant-form-horizontal) {
+    .ant-form-item-label {
+      @apply pb-1 #{!important};
+      label {
+        @apply h-auto font-normal leading-6 text-label #{!important};
+      }
+    }
+  }
+  .ant-form-item-label {
+    label {
+      @apply h-auto font-normal leading-6 text-label #{!important};
+    }
+  }
+}
+
+.form-search {
+  .ant-form-item {
+    @apply mb-0;
+  }
+}
+
+// ====== TABLE ======
+.hide-title {
+  .ant-table {
+    .ant-table-title {
+      @apply hidden;
+    }
+  }
+}
+.ant-table {
+  // line-height: 1.25em !important;
+  thead {
+    tr {
+      th {
+        @apply font-normal text-gray-800 #{!important};
+      }
+    }
+  }
+  tbody {
+    tr {
+      &:not(.ant-table-measure-row) {
+        td {
+          // padding: 12px 8px !important;
+          @apply text-gray-600 #{!important};
+        }
+      }
+      &:last-child {
+        td {
+          &:first-child {
+            border-end-start-radius: 6px;
+          }
+        }
+      }
+    }
+  }
+  *[class^='ant-table-cell-fix'] {
+    @apply bg-bg-main #{!important};
+  }
+  .ant-table-body,
+  .ant-table-content {
+    @include scrollbars(10px);
+  }
+  .ant-table-title {
+    @apply py-2;
+  }
+}
+
+// ====== END TABLE ======
+
+// ====== PAGINATION ======
+.app-pagination {
+  position: relative;
+  .ant-pagination {
+    .ant-pagination-item {
+      height: 48px !important;
+      min-width: 48px !important;
+      a {
+        height: 100%;
+        @include flex(row, center, center);
+        font-size: 1rem;
+        color: black !important;
+      }
+
+      &.ant-pagination-item-active,
+      &:hover {
+        border: none;
+        background-color: $neutral-n40 !important;
+      }
+    }
+    .ant-pagination-disabled {
+      @apply text-gray-300 #{!important};
+    }
+    .ant-pagination-prev,
+    .ant-pagination-next {
+      &:not(.ant-pagination-disabled):hover {
+        @apply text-gray-600 #{!important};
+      }
+    }
+    .ant-pagination-options {
+      .ant-select-selector {
+        border: none !important;
+        background-color: transparent !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .ant-pagination-total-text {
+      @include centerAbsolute('top');
+      left: 0;
+    }
+  }
+}
+
+// ====== END PAGINATION ======
+
+// ====== SELECT ======
+.ant-select {
+  &.ant-select-open {
+    .ant-select-arrow {
+      i {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+// ====== END SELECT ======
+
+// ====== COLLAPSE ======
+.ant-collapse {
+  .ant-collapse-item {
+    .ant-collapse-header {
+      @apply items-center;
+    }
+    &[disabled] {
+      .ant-collapse-content {
+        @apply hidden;
+      }
+    }
+  }
+}
+
+// ====== END COLLAPSE ======
+
+// ====== TABS ======
+.app-tabs {
+  .ant-tabs-nav {
+    @apply rounded-md bg-white px-2;
+  }
+}

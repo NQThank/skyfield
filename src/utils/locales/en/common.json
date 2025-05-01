@@ -1,0 +1,9 @@
+{
+  "detail": "Detail",
+  "no.": "No.",
+  "fail": "Fail",
+  "pagination": "Results: {{from}} - {{to}} of {{total}} items",
+  "row per page": "Rows per page",
+  "back": "Back",
+  "no data": "No data available"
+}
